@@ -1,4 +1,4 @@
-with open("c:/Users/pmadrid/Downloads/adventofcode/input2.txt", encoding="utf-8") as file:
+with open("./input2.txt", encoding="utf-8") as file:
     lines = [l.rstrip("\n") for l in file]
 
 def parseLine(line):

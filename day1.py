@@ -1,4 +1,4 @@
-with open("c:/Users/pmadrid/Downloads/input.txt", encoding="utf-8") as file:
+with open("./input.txt", encoding="utf-8") as file:
     numbers = [l.rstrip("\n") for l in file]
 
 numbers = [int(number) for number in numbers]
