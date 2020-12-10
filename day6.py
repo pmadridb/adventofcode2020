@@ -1,4 +1,3 @@
-import re
 with open("./input6.txt", encoding="utf-8") as file:
     answers_list = [l.rstrip("\n") for l in file]
 
