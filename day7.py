@@ -1,7 +1,5 @@
 import re
 import regex
-import functools
-import operator
 
 with open("./input7.txt", encoding="utf-8") as file:
     rules = [l.rstrip("\n") for l in file]
@@ -19,7 +17,6 @@ def part2():
     nodes = {}
     for rule in rules:
         parse_rule_part2(rule, nodes)
-    
     amount = count_bags(nodes, 'shiny gold ')
     print(amount)
 
