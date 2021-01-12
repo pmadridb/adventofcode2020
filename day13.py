@@ -25,9 +25,9 @@ def part2():
     iterator = 0
     increment = 1
     for bus in mods.keys():
-        while iterator % int(bus) != mods[int(bus)]:
+        while iterator % bus != mods[bus]:
             iterator += increment
-        increment *= int(bus)
+        increment *= bus
 
     print(iterator)
 
